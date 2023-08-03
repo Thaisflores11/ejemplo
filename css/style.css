@@ -1,0 +1,130 @@
+body{
+    background-color:rgb(255, 238, 90);
+}
+.monito
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    position: absolute;
+    color:red;
+    
+    box-shadow: 
+    130px 480px 0 0 currentColor,
+    310px 480px 0 0 currentColor;
+}   
+
+.bordecaraewe
+{
+    color:black;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -50px;
+    width: 770px;
+    height: 620px;
+    border: solid 2px currentColor;
+    background-color: currentColor;
+    border-radius: 100%;
+
+}
+
+.caraewe{
+    color:white;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -50px;
+    width: 750px;
+    height: 600px;
+    border: solid 2px currentColor;
+    background-color: currentColor;
+    border-radius: 100%;
+}
+
+
+.mostachouwu
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 70%;
+    position: absolute;
+    color: brown;
+    box-shadow: 
+        150px 240px 0 0 currentColor,
+        300px 240px 0 0 currentColor;      
+}
+.ojito{
+    color:white;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 90px;
+    width: 25px;
+    height: 35px;
+    border: solid 1px currentColor;
+    background-color: currentColor;
+    border-radius: 100px;
+}
+.ojito::after
+{
+    content: " ";
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -10px;
+    width: 25px;
+    height: 35px;
+    border: solid 1px currentColor;
+    background-color: currentColor;
+    border-radius: 100px;
+}
+.carauwu
+{
+    color: #000;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 80px;
+    width: 90px;
+    height: 115px;
+    border: solid 1px currentColor;
+    background-color: currentColor;
+    border-radius: 100px;
+}
+.carauwu::after
+{
+    content: " ";
+    position: absolute; 
+    margin-left: 250px;
+    margin-top: -10px;
+    width: 90px;
+    height: 115px;
+    border: solid 1px currentColor;
+    background-color: currentColor;
+    border-radius: 100px;   
+}
+.mostachouwu::before
+{
+    content: " ";
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    width: 210px;
+    height: 120px;
+    border-bottom: solid 180px currentColor;
+    border-radius: 0 0 0 80%;
+    transform: rotate(-40deg);
+    transform-origin: right 210px;
+}   
+.mostachouwu::after
+{
+    content: " ";
+    position: absolute;
+    left: 390px;
+    top: 120px;
+    width: 210px;
+    height: 120px;
+    border-bottom: solid 180px currentColor;
+    border-radius: 0 0 80% 0;
+    transform: rotate(40deg);
+    transform-origin: left 210px;
+}
+
+
+  
